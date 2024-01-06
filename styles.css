@@ -1,0 +1,70 @@
+body {
+    background-color: #FFF2E8;
+    color: #2D486D;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 30px;
+}
+
+ul {
+    font-size: 30px;
+}
+
+button {
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+#linkedin {
+    background-color: #416CA8;
+}
+
+#youtube {
+    background-color: #E64955;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: row;
+    margin: 60px;
+    justify-content: center;
+}
+
+.intro {
+    width: 50%;
+    margin-left: 40px;
+}
+
+#elon {
+    width: 278px;
+}
+
+#cybertruck {
+    width: 478px;
+    margin-left: 40px;
+}
