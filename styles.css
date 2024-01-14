@@ -1,7 +1,8 @@
 body {
-    background-color: #FFF2E8;
-    color: #2D486D;
-    font-family: 'Inter', sans-serif;
+    background-color:darkslategray;
+    color: papayawhip;
+
+    font-family: 'Space Mono', monospace;
 }
 
 h1 {
@@ -9,20 +10,20 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 p {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 ul {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 a {
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     margin-right: 20px;
     color: white;
@@ -31,7 +32,7 @@ a {
     border: none;
     background: transparent;
     cursor: pointer;
-    padding: 10px 30px;
+    padding: 8px 20px;
 }
 
 a:hover {
@@ -39,11 +40,11 @@ a:hover {
 }
 
 #linkedin {
-    background-color: #416CA8;
+    background-color:steelblue;
 }
 
 #youtube {
-    background-color: #E64955;
+    background-color: crimson;
 }
 
 .container {
@@ -57,6 +58,7 @@ a:hover {
     flex-direction: row;
     margin: 60px;
     justify-content: center; /* align items horizontally */
+    min-width: 700px;
 }
 
 .intro {
@@ -65,10 +67,12 @@ a:hover {
 }
 
 #elon {
-    width: 278px;
+    width: 260px;
+    border-radius: 20px;
 }
 
 #cybertruck {
-    width: 478px;
+    width: 300px;
     margin-left: 40px;
+    border-radius: 20px;
 }
