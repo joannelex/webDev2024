@@ -1,8 +1,11 @@
 body {
-    background-color:darkslategray;
+    background-color: darkslategray;
     color: papayawhip;
+    font-family: "Space Mono", monospace;
+    display: flex;
+    flex-direction: column;
 
-    font-family: 'Space Mono', monospace;
+    align-items: center; /* cross-axis */
 }
 
 h1 {
@@ -22,57 +25,51 @@ ul {
 }
 
 a {
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: 700;
-    margin-right: 20px;
     color: white;
     text-decoration: none;
+    font-size: 16px;
 
-    border: none;
-    background: transparent;
-    cursor: pointer;
     padding: 8px 20px;
+    border-radius: 5px;
 }
 
 a:hover {
-    filter: drop-shadow(4px 4px 0px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(6px 6px 0px rgba(0,0,0,0.25))
+}
+
+#elon {
+    width: 260px;
+    height: fit-content;
+    border-radius: 20px;
+}
+
+#cybertruck {
+    width: 300px;
+    height: fit-content;
+    border-radius: 20px;
 }
 
 #linkedin {
-    background-color:steelblue;
+    background-color: steelblue;
+    margin-right: 16px;
 }
 
 #youtube {
     background-color: crimson;
 }
 
-.container {
+.section {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    min-width: 700px;
+    margin: 50px;
+    justify-content: center;
     align-items: center;
 }
 
-.sub-container {
+.description {
     display: flex;
-    flex-direction: row;
-    margin: 60px;
-    justify-content: center; /* align items horizontally */
-    min-width: 700px;
-}
-
-.intro {
-    width: 40%;
-    margin-left: 40px;
-}
-
-#elon {
-    width: 260px;
-    border-radius: 20px;
-}
-
-#cybertruck {
-    width: 300px;
-    margin-left: 40px;
-    border-radius: 20px;
+    flex-direction: column;
+    margin: 40px;
+    width: 45%;
 }
