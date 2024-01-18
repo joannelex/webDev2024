@@ -1,0 +1,65 @@
+body {
+    background-color: darkslategray;
+    color: papayawhip;
+    font-family:'Space Mono', monospace;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center; /* cross-axis */
+    /* justify-content: center; main-axis */
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+a:hover {
+    filter: drop-shadow(6px 6px 0px rgba(0,0,0,0.25))
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    min-width: 700px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 30px;
+}
+
+#elon {
+    width: 260px;
+    height: fit-content;
+    border-radius: 20px;
+}
+
+#linkedin {
+    background-color: steelblue;
+    margin-right: 16px;
+}
+
+#youtube{
+    background-color: crimson;
+}
